@@ -43,6 +43,12 @@
                 (cont = el.container || el)[addEventListener](
                     mousedown,
                     cont.md = function(e) {
+                        if (e.target.tagName === "SELECT"
+                          || e.target.tagName === "INPUT"
+                          || e.target.tagName === "TEXTAREA"
+                        ) {
+                            return true
+                        }
                         const elementsOfClick = _document.elementsFromPoint(e.clientX, e.clientY);
                         const hasNoDragScroll = elementsOfClick.every(elem => !elem.classList.contains('nodragscroll'));
                         if ((!el.hasAttribute('nochilddrag') && hasNoDragScroll) ||
