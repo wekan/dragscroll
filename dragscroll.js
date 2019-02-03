@@ -61,12 +61,16 @@
                             lastClientY = e.clientY;
 
                             e.preventDefault();
+                            document.body.style.cursor = "all-scroll";
                         }
                     }, 0
                 );
 
                 _window[addEventListener](
-                    mouseup, cont.mu = function() {pushed = 0;}, 0
+                    mouseup, cont.mu = function() {
+                        pushed = 0;
+                        document.body.style.cursor = "";
+                    }, 0
                 );
 
                 _window[addEventListener](
@@ -81,6 +85,8 @@
                                 (scroller = _document.documentElement).scrollLeft -= newScrollX;
                                 scroller.scrollTop -= newScrollY;
                             }
+                            
+                            document.body.style.cursor = "all-scroll";
                         }
                     }, 0
                 );
@@ -97,4 +103,3 @@
 
     exports.reset = reset;
 }));
-
