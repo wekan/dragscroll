@@ -43,7 +43,9 @@
                 (cont = el.container || el)[addEventListener](
                     mousedown,
                     cont.md = function(e) {
-                        if (!el.hasAttribute('nochilddrag') ||
+                        const elementsOfClick = _document.elementsFromPoint(e.clientX, e.clientY);
+                        const hasNoDragScroll = elementsOfClick.every(elem => !elem.classList.contains('nodragscroll'));
+                        if ((!el.hasAttribute('nochilddrag') && hasNoDragScroll) ||
                             _document.elementFromPoint(
                                 e.pageX, e.pageY
                             ) == cont
