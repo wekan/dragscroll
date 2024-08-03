@@ -1,6 +1,6 @@
 {
   "author": "Dmitry Prokashev <heliosframework@gmail.com>",
-  "name": "dragscroll",
+  "name": "@wekanteam/dragscroll",
   "description": "Tiny library for drag-n-drop scrolling style",
   "version": "0.0.8",
   "keywords": [
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/asvd/dragscroll.git"
+    "url": "git://github.com/wekan/dragscroll.git"
   },
   "browser":
     {
