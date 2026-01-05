@@ -1,11 +1,10 @@
 /**
  * @fileoverview dragscroll - scroll area by dragging
- * @version 0.0.8
+ * @version 0.0.9
  * 
- * @license MIT, see http://github.com/asvd/dragscroll
- * @copyright 2015 asvd <heliosframework@gmail.com> 
+ * @license MIT, see http://github.com/wekan/dragscroll
+ * @copyright 2015-2026 asvd <heliosframework@gmail.com>, mfilser, xet7
  */
-
 
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {

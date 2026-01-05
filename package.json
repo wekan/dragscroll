@@ -1,8 +1,18 @@
 {
-  "author": "Dmitry Prokashev <heliosframework@gmail.com>",
   "name": "@wekanteam/dragscroll",
   "description": "Tiny library for drag-n-drop scrolling style",
-  "version": "0.0.8",
+  "version": "0.0.9",
+  "authors": "Dmitry Prokashev <heliosframework@gmail.com>",
+  "contributors": [
+    {
+      "name": "Martin Filser",
+      "url": "https://github.com/mfilser"
+    },
+    {
+      "name": "Lauri Ojansivu",
+      "url": "https://github.com/xet7"
+    }
+  ],
   "keywords": [
     "dragscroll",
     "scroll",

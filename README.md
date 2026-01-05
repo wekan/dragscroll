@@ -10,21 +10,6 @@ is written in vanilla JavaScript (which means it works anywhere).
 
 ### Usage
 
-
-Download the and unpack
-[distribution](https://github.com/asvd/dragscroll/releases/download/v0.0.8/dragscroll-0.0.8.tar.gz),
-or install it using [Bower](http://bower.io/):
-
-```sh
-$ bower install dragscroll
-```
-
-or npm:
-
-```sh
-$ npm install dragscroll
-```
-
 Load the `dragscroll.js` in a preferable way (that is an UMD module):
 
 ```html
@@ -58,4 +43,4 @@ opportunity to select the text (see
 
 -
 
-Follow me on twitter: https://twitter.com/asvd0
+Follow original creator of dragscroll at twitter: https://twitter.com/asvd0
